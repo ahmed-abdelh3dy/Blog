@@ -25,20 +25,20 @@ Implemented using `djangorestframework-simplejwt`.
 
 - 
 📌 API Endpoints
-📂 Posts
-Method	Endpoint	Description
-GET	/api/post	Retrieve all blog posts
-POST	/api/post	Create a new post (requires auth)
-GET	/api/post/status	Get post statuses
-GET	/api/post/<id>	Retrieve a single post by ID
-PUT	/api/post/<id>	Update a post (requires auth)
-DELETE	/api/post/<id>	Delete a post (requires auth)
+-📂 Posts
+-Method	Endpoint	Description
+-GET	/api/post	Retrieve all blog posts
+-POST	/api/post	Create a new post (requires auth)
+-GET	/api/post/status	Get post statuses
+-GET	/api/post/<id>	Retrieve a single post by ID
+-PUT	/api/post/<id>	Update a post (requires auth)
+-DELETE	/api/post/<id>	Delete a post (requires auth)
 
-💬 Comments
-Method	Endpoint	Description
-GET	/api/comment	Retrieve all comments
-POST	/api/comment	Add a comment (requires auth)
-GET	/api/comment/<id>	Retrieve a single comment by ID
-PUT	/api/comment/<id>	Update a comment (requires auth)
-DELETE	/api/comment/<id>	Delete a comment (requires auth)
+-💬 Comments
+-Method	Endpoint	Description
+-GET	/api/comment	Retrieve all comments
+-POST	/api/comment	Add a comment (requires auth)
+-GET	/api/comment/<id>	Retrieve a single comment by ID
+-PUT	/api/comment/<id>	Update a comment (requires auth)
+-DELETE	/api/comment/<id>	Delete a comment (requires auth)
 
