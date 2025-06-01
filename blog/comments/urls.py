@@ -3,6 +3,6 @@ from .views import CommetView , CommentViewDetail
 
 
 urlpatterns = [
-    path('create' , CommetView.as_view()),
+    path('comment' , CommetView.as_view()),
     path('comment/<int:id>' , CommentViewDetail.as_view())
 ]

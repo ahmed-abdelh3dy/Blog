@@ -4,7 +4,7 @@ from .views import PostView , PostDetailView , StatusView
 
 
 urlpatterns = [
-    path('create' , PostView.as_view()),
-    path('status' , StatusView.as_view()),
-    path('action/<int:id>' , PostDetailView.as_view())
+    path('post' , PostView.as_view()),
+    path('post/status' , StatusView.as_view()),
+    path('post/<int:id>' , PostDetailView.as_view())
 ]
